@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".index_main">
+
+    <!--top layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:background="#56FF02D5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--logo image-->
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="@dimen/logo_top"
+            android:layout_marginEnd="150dp"
+            android:contentDescription="@string/logo_image"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+    </LinearLayout>
+
+    <!--bottom layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="150dp"
+        android:layout_weight="3"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--bottom left layout-->
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="550dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+            <!--login button-->
+
+            <!--Appointments button-->
+
+            <ImageButton
+                android:id="@+id/imgLogin"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="#ECDBF1"
+                android:contentDescription="@string/logon_image_des"
+                android:src="@drawable/login" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:text="@string/login"
+                android:textColor="#F30E0101" />
+
+            <ImageButton
+                android:id="@+id/imgAppointments"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="#ECDBF1"
+                android:contentDescription="@string/appointments_des"
+
+                android:src="@drawable/appointments" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:text="@string/appoint"
+                android:textColor="#F30E0101" />
+
+            <!--Offers button-->
+            <ImageButton
+                android:id="@+id/imgOffers"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:background="#ECDBF1"
+                android:contentDescription="@string/offers_des"
+                android:src="@drawable/offers" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:text="@string/offer_name"
+                android:textColor="#F30E0101" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- bottom right layout-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--registration button-->
+        <ImageButton
+            android:id="@+id/imgregistration"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="#ECDBF1"
+            android:contentDescription="@string/registration_des"
+            android:src="@drawable/registration" />
+        <!--contact button-->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:text="@string/registeration"
+            android:textColor="#F30E0101" />
+
+
+        <ImageButton
+            android:id="@+id/imgServices"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="#ECDBF1"
+            android:contentDescription="@string/services_des"
+            android:src="@drawable/services" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:text="@string/servicename"
+            android:textColor="#F30E0101" />
+
+
+
+        <!--services button-->
+        <ImageButton
+            android:id="@+id/imgContact"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="#ECDBF1"
+            android:contentDescription="@string/contacts_des"
+            android:src="@drawable/contact" />
+
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:text="@string/contact"
+            android:textColor="#F30E0101" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

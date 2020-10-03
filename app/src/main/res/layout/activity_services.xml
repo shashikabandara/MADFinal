@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".services">
+
+
+        <TextView
+            android:id="@+id/service_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/service_heading"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/service_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:autofillHints="name"
+            android:background="@drawable/background"
+            android:hint="@string/service_name"
+            android:inputType="textPersonName|textCapWords"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/provider_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/background"
+            android:hint="@string/provider_name"
+            android:inputType="textPersonName|textCapWords"
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/background"
+            android:hint="@string/txtPrice"
+            android:inputType="number"
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background"
+        android:hint="@string/hint_id"
+        android:inputType="number"
+        android:padding="10dp"
+        android:importantForAutofill="no" />
+
+
+    <Button
+        android:id="@+id/btnAddService"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background"
+        android:text="@string/addService"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnViewService"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background"
+        android:text="@string/viewService"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnUpdateService"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background"
+        android:text="@string/updateService"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <Button
+            android:id="@+id/btnDeleteService"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/background"
+            android:text="@string/deleteService"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </LinearLayout>

@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">SliteProj</string>
+    <string name="personName">Person Name:</string>
+    <string name="AppointmentDate">Appointment Date:</string>
+    <string name="AppointmentTime">Appointment Time:</string>
+    <string name="AppointmentType">Appointment Type:</string>
+    <string name="AppointmentNotes">Appointment Notes:</string>
+    <string name="CardNumber">Card Number:</string>
+    <string name="CardCVC">Card CVC:</string>
+    <string name="CardExpireDate">Card Expire Date:</string>
+    <string name="TotalAmount">Total Amount:</string>
+    <string name="PaidAmount">Paid Amount:</string>
+    <string name="deletecondes">Delete</string>
+    <string name="editcondes">Edit</string>
+    <string name="AppointmentTime2">Enter Appointment Time</string>
+    <string name="AppointmentType2">Appointment Type</string>
+    <string name="AppointmentNotes2">Appointment Notes</string>
+    <string name="CardNumber2">Card Number</string>
+    <string name="CardCVC2">Card CVC</string>
+    <string name="CardExpireDate2">Card Expire Date</string>
+    <string name="TotalAmount2">Total Amount</string>
+    <string name="PaidAmount2">Paid Amount</string>
+    <string name="image2">image</string>
+    <string name="InsertAppointmentandPaymentDetails">Insert Appointment and Payment Details</string>
+    <string name="EnterYourName">Enter Your Name</string>
+
+    <string name="EnterappointmentType">Enter appointment Type</string>
+    <string name="EnterappointmentNotes">Enter appointment Notes</string>
+    <string name="EnterCardNumber">Enter Card Number</string>
+    <string name="EnterCVC">Enter CVC</string>
+    <string name="EnterExipireDate">Enter Exipire Date</string>
+    <string name="TotalAmount3">Enter Total Amount</string>
+    <string name="PaidAmount3">Enter Paid Amount</string>
+    <string name="AppointmentDate3">Enter Appointment Date</string>
+    <string name="Payableamount">Payable amount</string>
+    <string name="MakeAppointment">Make Appointment</string>
+    <string name="Adate">Appointment Date</string>
+    <string name="Atime">Appointment Time</string>
+    <string name="update_appointment_and_payment_details">Update Appointment and Payment Details</string>
+    <string name="todo">TODO</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="appointment_time">Appointment Time</string>
+    <string name="Appointment_date">Appointment Date</string>
+    <string name="enter_appointment_type">Enter appointment Type</string>
+    <string name="enter_appointment_notes">Enter appointment Notes</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="enter_cvc">Enter CVC</string>
+    <string name="enter_exipire_date">Enter Exipire Date</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="update">UPDATE</string>
+
+
+    <!---Services-->
+    <string name="title_activity_services">services</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="logo_image">logo image</string>
+    <string name="registration_des">Registration image</string>
+    <string name="login_des">Login image</string>
+    <string name="logon_image_des">login image</string>
+    <string name="appointments_des">Appointments Image</string>
+    <string name="services_des">services image</string>
+    <string name="offers_des">Offers Image</string>
+    <string name="contacts_des">contact image</string>
+    <string name="txtHeadin_hair">HAIR CUTS</string>
+    <string name="home_link">HOME</string>
+    <string name="move_Home">Move To Home Page</string>
+    <string name="home_des">Move Home Page</string>
+    <string name="header_Hair">HAIR</string>
+    <string name="service_heading">SERVICES DETAILS</string>
+    <string name="logout_des">Log Out</string>
+    <string name="select_image">SELECT IMAGE PATH</string>
+    <string name="path_hint">Select image </string>
+    <string name="service_name">SERVICE NAME</string>
+    <string name="provider_name">PROVIDER NAME</string>
+    <string name="txtPrice">PRICE</string>
+    <string name="service_name_hint">Enter Service Name</string>
+    <string name="service_provider_hin">Enter Service Provider</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="addService">ADD SERVICE</string>
+    <string name="updateService">UPDATE SERVICE</string>
+    <string name="viewService">VIEW SERVICE</string>
+    <string name="deleteService">DELETE SERVICE</string>
+    <string name="id">ID</string>
+    <string name="hint_id">TYPE ID TO UPDATE</string>
+    <string name="id_delete">ID</string>
+    <string name="hint_del_id">TYPE ID TO DELETE</string>
+    <string name="login_title">LOGIN</string>
+    <string name="change_image">CHANGE IMAGE</string>
+    <string name="imgpicture">service picture</string>
+    <string name="update_button">Update Service</string>
+
+
+    <!---Login-->
+    <string name="user_name">Enter Username</string>
+    <string name="pass">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="appoint">APPOINTMENTS</string>
+    <string name="offer_name">OFFERS</string>
+    <string name="servicename">SERVICES</string>
+    <string name="registeration">REGISTRATION</string>
+    <string name="contact">CONTACT</string>
+
+</resources>
