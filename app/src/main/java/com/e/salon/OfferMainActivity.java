@@ -1,4 +1,5 @@
 package com.e.salon;
+
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
@@ -10,26 +11,26 @@ import android.view.View;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class MainActivity extends AppCompatActivity {
+public class OfferMainActivity extends AppCompatActivity {
 
     FloatingActionButton fab;
     RecyclerView mRecyclerView;
-    private DatabaseHelper DatabaseHelper;
+    private OfferDatabaseHelper offerDatabaseHelper;
     ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.offers_activity_main);
 
         actionBar = getSupportActionBar();
-        actionBar.setTitle("All Appointment and Payment Details");
+        actionBar.setTitle("All Offer Details");
 
         fab = findViewById(R.id.addFabButton);
         mRecyclerView = findViewById(R.id.recyclerView);
 
 
-        DatabaseHelper = new DatabaseHelper(this);
+        offerDatabaseHelper = new OfferDatabaseHelper(this);
 
         showRecord();
 
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, AddRecordActivity.class);
+                Intent intent = new Intent(OfferMainActivity.this, OfferAddRecordActivity.class);
                 intent.putExtra("editMode", false);
                 startActivity(intent);
             }
@@ -46,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void showRecord() {
 
-        Adapter Adapter = new Adapter(MainActivity.this,
-                DatabaseHelper.getAllData(Constants.C_Add_TIMESTAMP + " DESC"));
+        OfferAdapter offerAdapter = new OfferAdapter(OfferMainActivity.this,
+                offerDatabaseHelper.getAllData(Constants.C_Add_TIMESTAMP + " DESC"));
 
-        mRecyclerView.setAdapter(Adapter);
+        mRecyclerView.setAdapter(offerAdapter);
     }
 
     @Override
